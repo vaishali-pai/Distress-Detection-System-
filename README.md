@@ -1,1 +1,2 @@
-# Distress-Detection-System-
+# Distress-Detection-System
+This project implements an IoT-based real-time Distress Detection System using the ESP32 microcontroller, integrated with a MAX30102 pulse oximeter, a GSR (Galvanic Skin Response) sensor, and a panic button. The system monitors heart rate and stress levels continuously and triggers a 10-second pre-alert when abnormal conditions are detected. If the alert is not canceled via the Blynk app, it sends an emergency SMS through the Twilio API to a predefined contact. Designed for elderly care and high-risk environments, this system offers a reliable, automated health alert solution with remote monitoring capability.
